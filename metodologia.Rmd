@@ -1,0 +1,4 @@
+# Diseño del curso
+## Revisión general de la disciplina
+## Formulación de la cuestión generatriz
+## Desarrollo del REI

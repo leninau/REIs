@@ -1,0 +1,231 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[12pt,spanish,]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={Géneración y Desarrollo de Recorridos de Estudio e Investigación en la Formación Matemática de Futuros Ingenieros},
+            pdfauthor={Lenin Augusto Echavarría Cepeda},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=2cm]{geometry}
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\usepackage{booktabs}
+\usepackage{setspace}
+\doublespacing
+% https://github.com/rstudio/rmarkdown/issues/337
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+% https://github.com/rstudio/rmarkdown/pull/252
+\usepackage{titling}
+\setlength{\droptitle}{-2em}
+
+\pretitle{\vspace{\droptitle}\centering\huge}
+\posttitle{\par}
+
+\preauthor{\centering\large\emph}
+\postauthor{\par}
+
+\predate{\centering\large\emph}
+\postdate{\par}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,main=spanish]{babel}
+\else
+  % load polyglossia as late as possible as it *could* call bidi if RTL lang (e.g. Hebrew or Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{spanish}
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+
+\title{Géneración y Desarrollo de Recorridos de Estudio e Investigación en la Formación Matemática de Futuros Ingenieros}
+\author{Lenin Augusto Echavarría Cepeda}
+\date{30 de noviembre de 2019}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{resumen}{%
+\chapter*{Resumen}\label{resumen}}
+\addcontentsline{toc}{chapter}{Resumen}
+
+\hypertarget{glosario}{%
+\chapter*{Glosario}\label{glosario}}
+\addcontentsline{toc}{chapter}{Glosario}
+
+\begin{description}
+\item[Transposición]
+Se da cuando un conocimiento va de un lugar a otro.
+\item[Praxeología]
+Unidad mínima de análisis.
+\item[Conocimiento]
+Elemento fundamental en las instituciones.
+\item[Institución]
+Organización social estable depositaria de conocimientos.
+\item[Equipamiento praxeológico]
+Conjunto de conocimientos que posee un individuo o una institución.
+\end{description}
+
+\hypertarget{teoruxeda-antropoluxf3gica-de-lo-diduxe1ctico}{%
+\chapter{Teoría Antropológica de lo Didáctico}\label{teoruxeda-antropoluxf3gica-de-lo-diduxe1ctico}}
+
+\hypertarget{aspectos-generales}{%
+\section{Aspectos generales}\label{aspectos-generales}}
+
+\hypertarget{instituciones-y-praxeologuxedas}{%
+\subsection{Instituciones y Praxeologías}\label{instituciones-y-praxeologuxedas}}
+
+Conocimiento e institución son nociones estrechamente relacionadas dentro de la TAD. La existencia de las instituciones se justifica por los conocimientos que poseen y que pueden poner en práctica.
+
+Dentro de la TAD, la unidad mínima de análisis de las actividades humanas es la praxeología.
+Estas actividades pueden realizarse en cualquier ámbito donde intervienen las personas, como por ejemplo, el trabajo, la escuela, la investigación científica, la industria, etcétera.
+El análisis empieza con la identificación de lo que se hace, la tarea o el tipo de tarea \(T\).
+La descripción de cómo se hace se le conoce como la técnica \(\tau\).
+Al discurso que justifica la técnica se le conoce como tecnología \(\theta\).
+A su vez, la teoría \(\Theta\) es el discurso sobre la tecnología.
+Estos cuatro elementos conforman la praxeología \([T,\tau,\theta,\Theta]\).
+Así, una praxeología tiene dos bloques: la praxis \([T,\tau]\) y el logos \([\theta,\Theta]\).
+
+Dentro de una institución, una praxeología \([T,\tau,\theta,\Theta]\) describe algo que alguno o algunos de sus mienbros son capaces de realizar.
+Es decir, es una caracterízación de una parte del conocimiento que hay dentro de una institución. Varias praxeologías pueden compartir la misma tecnología \(\theta\).
+Se dice así que varias praxeologías puntuales \([T,\tau,\theta,\Theta]\) se organizan en una praxeología local \([T_i,\tau_i,\theta,\Theta]\).
+A su vez, las praxeologías locales se organizan en praxeologías regionales \([T_{ij},\tau_{ij},\theta_j,\Theta]\).
+Siguiendo esta lógica, se puede pensar también en las praxeologías globales \([T_{ijk},\tau_{ijk},\theta_{jk},\Theta_k]\).
+
+Los miembros de una institución son capaces de realizar tipos de tareas que son partes de praxeologías puntuales, locales, regionales o globales. Al conjunto de conocimientos conformados de esta manera relacionados con un individuo o una institución le llamamos equipamiento praxeológico.
+
+\hypertarget{transposiciuxf3n}{%
+\subsection{Transposición}\label{transposiciuxf3n}}
+
+La noción de transposición es uno de los más importantes en la teoría.
+
+\hypertarget{niveles-de-codeterminaciuxf3n}{%
+\subsection{Niveles de codeterminación}\label{niveles-de-codeterminaciuxf3n}}
+
+\hypertarget{picm}{%
+\section{PICM}\label{picm}}
+
+\hypertarget{reis}{%
+\subsection{REIs}\label{reis}}
+
+\hypertarget{dialuxe9cticas}{%
+\subsection{Dialécticas}\label{dialuxe9cticas}}
+
+\hypertarget{actitudes}{%
+\subsection{Actitudes}\label{actitudes}}
+
+\hypertarget{mer}{%
+\section{MER}\label{mer}}
+
+\hypertarget{diseuxf1o-del-curso}{%
+\chapter{Diseño del curso}\label{diseuxf1o-del-curso}}
+
+\hypertarget{revisiuxf3n-general-de-la-disciplina}{%
+\section{Revisión general de la disciplina}\label{revisiuxf3n-general-de-la-disciplina}}
+
+\hypertarget{formulaciuxf3n-de-la-cuestiuxf3n-generatriz}{%
+\section{Formulación de la cuestión generatriz}\label{formulaciuxf3n-de-la-cuestiuxf3n-generatriz}}
+
+\hypertarget{desarrollo-del-rei}{%
+\section{Desarrollo del REI}\label{desarrollo-del-rei}}
+
+\hypertarget{resultados}{%
+\chapter{Resultados}\label{resultados}}
+
+\hypertarget{examen-de-la-disciplina}{%
+\section{Examen de la disciplina}\label{examen-de-la-disciplina}}
+
+\hypertarget{reportes-y-videos-de-las-cuestiones-generatrices}{%
+\section{Reportes y videos de las cuestiones generatrices}\label{reportes-y-videos-de-las-cuestiones-generatrices}}
+
+\hypertarget{reportes-y-presentaciones-finales}{%
+\section{Reportes y presentaciones finales}\label{reportes-y-presentaciones-finales}}
+
+\hypertarget{encuestas}{%
+\section{Encuestas}\label{encuestas}}
+
+\hypertarget{discusiuxf3n}{%
+\chapter{Discusión}\label{discusiuxf3n}}
+
+\hypertarget{dialuxe9cticas-1}{%
+\section{Dialécticas}\label{dialuxe9cticas-1}}
+
+\hypertarget{actitudes-1}{%
+\section{Actitudes}\label{actitudes-1}}
+
+\hypertarget{cognitivas}{%
+\section{Cognitivas}\label{cognitivas}}
+
+\hypertarget{hacia-un-nuevo-diseuxf1o}{%
+\section{Hacia un nuevo diseño}\label{hacia-un-nuevo-diseuxf1o}}
+
+\bibliography{Tesis.bib}
+
+\end{document}

@@ -1,0 +1,33 @@
+# Teoría Antropológica de lo Didáctico
+## Aspectos generales
+
+Conocimiento e institución son nociones estrechamente relacionadas dentro de la TAD. La existencia de las instituciones se justifica por los conocimientos que poseen y que pueden poner en práctica.
+
+
+Dentro de la TAD, la unidad mínima de análisis de las actividades humanas es la praxeología.
+Estas actividades pueden realizarse en cualquier ámbito donde intervienen las personas, como por ejemplo, el trabajo, la escuela, la investigación científica, la industria, etcétera.
+El análisis empieza con la identificación de lo que se hace, la tarea o el tipo de tarea $T$.
+La descripción de cómo se hace se le conoce como la técnica $\tau$.
+Al discurso que justifica la técnica se le conoce como tecnología $\theta$.
+A su vez, la teoría $\Theta$ es el discurso sobre la tecnología.
+Estos cuatro elementos conforman la praxeología $[T,\tau,\theta,\Theta]$.
+Así, una praxeología tiene dos bloques: la praxis $[T,\tau]$ y el logos $[\theta,\Theta]$.
+
+
+Dentro de una institución, una praxeología $[T,\tau,\theta,\Theta]$ describe algo que alguno o algunos de sus mienbros son capaces de realizar.
+Es decir, es una caracterízación de una parte del conocimiento que hay dentro de una institución. Varias praxeologías pueden compartir la misma tecnología $\theta$.
+Se dice así que varias praxeologías puntuales $[T,\tau,\theta,\Theta]$ se organizan en una praxeología local $[T_i,\tau_i,\theta,\Theta]$.
+A su vez, las praxeologías locales se organizan en praxeologías regionales $[T_{ij},\tau_{ij},\theta_j,\Theta]$.
+Siguiendo esta lógica, se puede pensar también en las praxeologías globales $[T_{ijk},\tau_{ijk},\theta_{jk},\Theta_k]$.
+
+Los miembros de una institución son capaces de realizar tipos de tareas que son partes de praxeologías puntuales, locales, regionales o globales. Al conjunto de conocimientos conformados de esta manera relacionados con un individuo o una institución le llamamos equipamiento praxeológico.
+
+La noción de transposición es uno de los más importantes en la teoría.
+
+
+### Niveles de codeterminación
+## PICM
+### REIs
+### Dialécticas
+### Actitudes
+## MER
